@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body.light .box-shadowed {
+  box-shadow: 4px 4px 8px #aaaaaa, -4px -4px 8px #ffffff;
+}
+
+body.dark .box-shadowed {
+  box-shadow: 4px 4px 8px #414141, -4px -4px 8px rgb(130, 130, 130);
+}
+
+/* body.dark .box-shadowed {
+  box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #3a3a3a; //original shadow
+} */
+
+.rom_page {
+  background: #000;
+  display: flex;
+}
+
+body {
+  background-color: #e0e0e0;
+display: flex;
+}
+
+.manager-container {
+  position:fixed; /* to stop this div from being moved up&down */
+  display: flex;
+  
+ /* For finding divs: */
+ /* background: #61dafb; */
+  padding:px;
+  padding-bottom:0px;
+  
+}
+
+.sidebar-div {
+  position: relative;
+}
+
+/* App.css */
+
+/* .app.light {
+  background-color: #f9f9f9;
+  color: rgb(238, 81, 81);
+}
+
+.app.dark {
+  background-color: #d58c8c;
+  color: #f0f0f0;
+}
+
+
+.app {
+  transition: background-color 0.5s ease, color 0.5s ease;
+} */
+
+
+/* .content {
+
+-----------For finding divs:-----------
+background: #2c4373;
+padding:10px;
+padding-bottom:20px;
+
+} */
+
+.sidebar-div {
+width:13rem; 
+padding: 1px;
+height:100vh;
+
+/* For finding divs: */
+/* background: rgb(216, 140, 0); */
+/* padding-bottom: 30px; */ /* <---------------- xd */
+}
+
+
+/* App.css */
+
+
+@media (max-width: 768px) {
+ 
+  .sidebar-div {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    padding: 5px; 
+  }
+
+/*   .preview-window {
+    flex-direction: column;
+    scale: 0.9;
+  } */
+}

@@ -1,0 +1,275 @@
+/*--------------------------- Toggle Switches ------------------------------*/
+
+.checkbox-wrapper { /* had to create to make it scrollable */
+  height:100vh;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+
+
+.checkbox-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.checkbox-container {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+padding:rem;
+  /* padding:10px; */
+/* background: #ac4b4b; */ /*- For finding divs */
+ margin: 40px 50px 0px;
+/* margin-top:1.5rem; */
+padding-bottom:3rem;
+
+}
+
+.toggle-switch-group {
+  margin-bottom: auto;
+  border: 1px solid #d1d1d1;
+  border-radius: 1rem;
+  background: #e0e0e0;
+  box-shadow: 4px 4px 8px #aaaaaa, -4px -4px 8px #ffffff;
+  width: 19.5rem;
+  padding: 12px;
+  margin-right:rem;
+}
+
+body.dark .toggle-switch-group {
+  background-color: #4e4e4e;
+  box-shadow: 8px 8px 15px #2f2f2f, -8px -8px 15px  #6c6c6c;
+  color: #fff;
+  border: 1px solid #535353;
+}
+
+.switch-header {
+  display: flex;
+  gap:5px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+.toggle-label {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 5px;
+
+/*   margin-bottom: 5px; */
+  text-align: center; 
+  color: #d9d9d9;
+  text-shadow: 
+    -2px -2px 2px rgba(255, 255, 255, 0.5),
+    2px 2px 2px rgba(0, 0, 0, 0.4); 
+    display:flex;
+ /*  display: inline-block;  */
+  letter-spacing: 1px; 
+  
+}
+
+body.dark .toggle-label {
+  color: #4e4e4e;
+  text-shadow: 
+    -2px -2px 2px rgba(211, 211, 211, 0.5),
+    2px 2px 2px rgba(0, 0, 0, 0.4); 
+}
+
+/* .toggle-switch-group:hover {
+  background-color: #f0f0f0;
+}
+.toggle-switch-group:active {
+  background-color: #e0e0e0;
+} */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  box-shadow: 4px 4px 8px #aaaaaa, -4px -4px 8px #ffffff;
+  border-radius: 25px;
+ margin-top: 5px;
+}
+
+body.dark .toggle-switch {
+  background-color: #4e4e4e;
+  box-shadow: 4px 4px 10px #2f2f2f, -4px -4px 10px  #6c6c6c;
+  color: #fff;
+  border: 1px solid #535353;
+}
+
+
+.toggle-switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc; /* rgb(189, 79, 79) - good alternative color */
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.9s;
+  
+}
+
+body.dark .slider {
+  background-color: #4e4e4e;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+body.dark .slider:before {
+  background-color: #737373;
+}
+
+input:checked + .slider {
+  background-color: #ff8400;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/*----------------------Image--------------------*/
+
+.img-section {
+  margin-top: 1rem; 
+  margin-bottom: 0px;
+  margin-right: -6rem;
+  margin-left: -6rem; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  max-height: 100px;
+  /* position:flex; */
+  height: auto; /* Allow dynamic height based on image size */
+  transition: tmax-height 0.9s ease;
+}
+
+
+.toggle-image {
+  width: 100%; /* Original width */
+  /* height: 100%; */ 
+  transform: scale(0.55); /* Scales the image down to 80% */
+  border-radius: 10px;
+  
+  padding: 0;
+  display: block; /* Ensures no extra spacing caused by inline elements */
+  
+  object-fit: contain; /* Preserve aspect ratio */
+  
+  max-width: none; /* Allow images to display at their natural size */
+  height: auto; /* Maintain the natural aspect ratio */
+}
+
+.checkbox-container .toggle-image.clock {
+  width: 25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.checkbox-container .toggle-image.weather {
+  width: 25rem;
+  margin-top: 4rem;
+}
+
+/* Increase margin-bottom for weather */
+.img-section.weather-bottom {
+  margin-bottom: 4.5rem; 
+}
+
+/* Increase margin-bottom for calendar */
+.img-section.calendar-bottom {
+  margin-bottom: 4.5rem; 
+}
+
+.checkbox-container .toggle-image.calendar {
+  width: 25rem;
+  margin-top: 4rem;
+}
+
+/* .checkbox-container .toggle-image.newsfeed {
+  width: 50rem;
+}
+ */
+
+.arrow {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border-right: 4px solid #585858;
+  border-bottom: 4px solid #585858;
+  transform: rotate(45deg);
+  transition: transform 0.7s ease;
+  
+}
+
+body.dark .arrow {
+  border-right: 4px solid #6b6b6b;
+  border-bottom: 4px solid #6b6b6b;
+}
+
+.arrow.up {
+  transform: rotate(225deg);
+}
+
+.arrow-div{
+ padding:10px;
+  /* background: #b685e8; */ /* For finding divs: */
+  margin-left:0px;
+  position: absolute;
+  margin-left: 17.3rem;
+ 
+  
+}
+@media (max-width: 768px) {
+  .checkbox-container {
+    gap: 10px;
+    margin: 0 10px;
+    padding: 10px;
+    max-width: 100%;
+    transform: scale(0.97); /* Shrink contents */
+  }
+
+  .toggle-switch-group {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+
+  .toggle-label {
+    font-size: 1.2rem; /* Smaller label text */
+  }
+
+  .toggle-switch {
+    width: 40px;
+    height: 20px;
+  }
+
+  .slider:before {
+    height: 16px;
+    width: 16px;
+  }
+
+  .toggle-image {
+    transform: scale(0.4); /* Shrink preview image */
+  }
+}

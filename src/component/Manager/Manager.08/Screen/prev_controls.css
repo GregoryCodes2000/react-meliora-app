@@ -1,0 +1,61 @@
+.preview-controls {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-bottom: 10px;
+  /* top:2rem;
+  right:14.2rem; */
+  /*   position: fixed; */
+  position: absolute;
+
+  margin-left: 12rem;
+}
+
+.toggle-button.active {
+  outline: none;
+  border: none;
+}
+
+.toggle-button {
+  background: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #aaaaaa, -4px -4px 8px #ffffff;
+  transition: 0.2s all ease;
+  /* font-weight: bold; */
+  font-size: 1rem;
+
+  /* padding: 15px; */
+}
+
+.toggle-button.active {
+  background: #d1d1d1;
+  box-shadow: inset 2px 2px 4px #aaaaaa, inset -2px -2px 4px #ffffff;
+}
+
+body.dark .toggle-button.active {
+  background-color: #4e4e4e;
+  box-shadow: -2px -2px 2px #242424, 2px 2px 2px #6c6c6c;
+  color: #fff;
+}
+
+body.dark .toggle-button {
+  background-color: #4e4e4e;
+  box-shadow: 2px 2px 2px #242424, -2px -2px 2px #6c6c6c;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .preview-controls {
+    padding: px;
+    background-color: pink;
+    transform: scale(0.95); /* Shrinks the whole container */
+    object-fit: contain;
+    
+    margin-bottom: 0px;
+    margin-left: 0rem;
+  }
+}

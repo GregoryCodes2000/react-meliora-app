@@ -1,0 +1,130 @@
+.weather-container {
+  font-family: Arial, sans-serif;
+  box-shadow: /* inset */ 4px 4px 8px #aaaaaa, -2px -2px 2px #ffffff;
+  background: #d7d7d7;
+  padding: 15px;
+  width: 40.3rem;
+  height: 25rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between; /* Optional: adds space between the divs */
+  gap: 3rem; /* Adds space between the divs */
+  padding: 20px;
+  margin: 40px 50px 0px;
+}
+
+body.dark .weather-container {
+  background-color: #4e4e4e;
+  box-shadow: 2px 2px 2px #242424, -2px -2px 2px  #6c6c6c;
+  color: #fff;
+}
+
+.weather-displays {
+  flex-shrink: 0;
+  display:block;
+  text-align: left;
+  width: 19rem;
+  height: 9rem;
+  text-align: center;
+/*   background-color: #222;
+ */  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  box-shadow: -3px -3px 5px 2px #818181, 3px 3px 2px 2px #ffffff;
+
+}
+
+body.dark .weather-displays {
+ 
+  box-shadow: -2px -2px 2px #242424, 2px 2px 2px  #6c6c6c;
+ 
+}
+
+.location-input {
+  text-align: left;
+  order: 2;
+  
+}
+
+.location-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: rgb(144, 144, 144);
+}
+
+.location-input input {
+  padding: 0.5rem;
+  border-radius: 5px;
+ /*  border: 1px solid #ccc; */
+ border: none;
+  background-color: rgb(173, 172, 172);
+  color: white;
+  width: 14rem;
+  font-size: 1rem;
+  box-shadow: -3px -2px 3px #818181, 2px 2px 3px #ffffff;
+  
+}
+
+body.dark .location-input input {
+  background-color: #4e4e4e;
+  box-shadow: -2px -2px 2px #242424, 2px 2px 2px  #6c6c6c;
+  border: none;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(173, 172, 172);
+  border-radius: 5px;
+  margin-top:5px;
+  color:white;
+  top: 74%;
+
+  width: auto;
+}
+
+body.dark .suggestions {
+  background-color: #4e4e4e;
+  box-shadow: -2px -2px 2px #242424, 2px 2px 2px  #6c6c6c;
+  color: #fff;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  cursor: pointer;
+  border:10px;
+  border-color:rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.suggestions li:hover {
+  background-color: #ff9e37;
+}
+
+
+.weather-display h2 {
+  margin-bottom: -0.5rem;
+  font-size: 1.5rem;
+  color: rgb(131, 131, 131);
+  margin-top: 3px;
+  
+}
+
+.temperature {
+  font-size: 4rem; /* Adjust the size as needed */
+  font-weight: bold;
+  color: white;
+   margin:0 0rem; 
+
+}
+
+.weather-info-line {
+
+  color: rgb(250, 250, 250);
+
+  font-size: 1.2rem;
+  /* text-align: left; */
+ 
+}
+
+p {margin:-4px} 

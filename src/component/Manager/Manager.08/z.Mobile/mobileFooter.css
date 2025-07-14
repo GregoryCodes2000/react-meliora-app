@@ -1,0 +1,43 @@
+/* mobileFooter.css */
+.mobile-footer {
+    display: none; /* Hide by default */
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #f0f0f0;
+      padding: 10px;
+      z-index: 1000;
+      box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.15);
+    }
+  
+    .icon-button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  .module-popup {
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+  }
+  

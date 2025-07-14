@@ -1,0 +1,77 @@
+.theme_mode {
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    justify-content: center;
+    width:10.3rem;
+    display: flex;
+    align-items: center;
+    background: #e6e4e4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #aaaaaa, -2px -2px 2px #ffffff;
+    transition: background-color 0.5s ease;
+    transform: translateY(5px); /* Shift up slightly */
+   bottom: 1.5rem;
+   position:absolute;
+   margin-left: 12px;
+  }
+
+  body.dark .theme_mode {
+    background-color: #4e4e4e;
+    box-shadow: 2px 2px 2px #242424, -2px -2px 2px  #6c6c6c;
+    color: #fff;
+  }
+
+  .theme-button {
+    background: #d0d0d0;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 0 5px;
+  cursor: pointer;
+  /* border-color:#bcbcbc;
+  border-width:1px;
+  border-style: solid; */
+  border:none;
+ }
+
+ body.dark .theme-button {
+    background-color: #686868;
+    box-shadow:none;
+    color: #fff;
+  }
+
+ .theme-button.active {
+  background: #d1d1d1;
+  box-shadow: inset 2px 2px 4px #aaaaaa, inset -2px -2px 4px #ffffff;
+ 
+}
+
+body.dark .theme-button.active {
+  background-color: #4e4e4e;
+  box-shadow: -2px -2px 2px #242424, 2px 2px 2px  #6c6c6c;
+  color: #fff;
+}
+
+/* -------------------------- Dark background ------------------------- */
+body.light {
+    --bg: #e0e0e0;
+    --text: #000000;
+    --shadow-light: #ffffff;
+    --shadow-dark: #aaaaaa;
+  }
+  
+  body.dark {
+    --bg: #4e4e4e;
+    --text: #ffffff;
+    --shadow-light: #cb2323;
+    --shadow-dark: #257929;
+  }
+  
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+   
+  }
+
+  
+  
