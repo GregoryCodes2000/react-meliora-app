@@ -8,7 +8,7 @@ Welcome to my modular **Smart Mirror Platform** – a fully customizable, mobile
 
 ---
 
-## 🧠 What Is It?
+## What Is It?
 
 A lightweight, touch-friendly React app that:
 - Displays real-time modules like weather, time, and sensors
