@@ -1,63 +1,61 @@
-# Hello, I'm Gregory
-<a href="https://linkedin.com/in/gregory-peck/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# 🪞 Smart Mirror Platform – Built by Gregory
 
-[Brief Introduction - Remove this afterwards]
+<a href="https://linkedin.com/in/gregory-peck/">
+  <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+Welcome to my modular **Smart Mirror Platform** – a fully customizable, mobile-friendly interface that turns a regular screen into a powerful and intelligent visual dashboard.
 
-## Objective
-[Provide Objective - Remove this afterwards]]
+---
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+## 🧠 What Is It?
 
-## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
+A lightweight, touch-friendly React app that:
+- Displays real-time modules like weather, time, and sensors
+- Adapts to **vertical or horizontal layouts**
+- Allows **live preview + drag-and-drop configuration**
+- Works with **Raspberry Pi**, or any web-capable display
+- Features a clean UI optimized for **mobile, tablet, or desktop**
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+---
 
-## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
+## 🎯 Key Features
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
+✅ **Modular Design** – Add or remove features like Clock, Weather, News  
+📱 **Mobile-First Interface** – Designed to be fully usable from a phone  
+🖼️ **Live Preview Window** – Interactive grid shows layout in real time  
+🌓 **Dark/Light Theme Toggle**  
+📦 **Easy Deployment** – Plug-and-play for Raspberry Pi setups  
+⚙️ **Manual API Key & Location Input** – No code editing required  
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
+---
 
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
+## 🛠 Built With
 
-## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-CCD-000080?&style=for-the-badge&logoColor=white" />
-</div>
+| Tech | Description |
+|------|-------------|
+| React.js | Frontend component system & rendering |
+| Node.js | API layer for custom module data |
+| CSS Grid + Flexbox | Responsive layout engine |
+| Raspberry Pi | Hardware integration & deployment |
+| Express.js | Backend data endpoints |
+| GitHub | Version control + open collaboration |
 
-## Projects
-- Detection Lab
-- SOC Automation Project
+---
+
+## 📸 Preview
+
+<img src="https://github.com/GregoryCodes2000/assets/blob/main/smart-mirror-demo.gif" alt="Smart Mirror Preview" width="100%" />
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/GregoryCodes2000/smart-mirror
+cd smart-mirror
+npm install
+npm start
 
 # Getting Started with Create React App
 
