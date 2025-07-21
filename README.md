@@ -1,4 +1,4 @@
-# 🪞 Smart Mirror Platform – Built by Gregory
+# Hello, I'm Gregory, and here is my Smart Mirror Platform.
 
 <a href="https://linkedin.com/in/gregory-peck/">
   <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
