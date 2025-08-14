@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-Welcome to my modular **Smart Mirror Platform** – a fully customizable, mobile-friendly interface that turns a regular screen into a powerful and intelligent visual dashboard.
+Welcome to my modular **Smart Mirror Platform** – a fully customizable, desktop-friendly (and soon to be mobile-friendly) interface that turns a regular screen into a powerful and intelligent visual dashboard.
 
 ---
 
