@@ -53,10 +53,10 @@ A lightweight, touch-friendly React app that:
 
 ## 📸 Preview of Smart Mirror in action
 
-<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.1.png" alt="Smart Mirror Preview" width="100%" />
-<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.2.png" alt="Smart Mirror Preview" width="100%" />
-<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.4.png" alt="Smart Mirror Preview" width="100%" />
-<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.3.png" alt="Smart Mirror Preview" width="100%" />
+<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.1.jpg" alt="Smart Mirror Preview" width="100%" />
+<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.2.jpg" alt="Smart Mirror Preview" width="100%" />
+<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.4.jpg" alt="Smart Mirror Preview" width="100%" />
+<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/mirror.3.jpg" alt="Smart Mirror Preview" width="100%" />
 
 ---
 
