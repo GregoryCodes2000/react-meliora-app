@@ -49,6 +49,8 @@ A lightweight, touch-friendly React app that:
 <img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/MacScreen.02.png" alt="Smart Mirror Preview" width="100%" />
 <img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/MacScreen.03.png" alt="Smart Mirror Preview" width="100%" />
 
+<img src="https://github.com/GregoryCodes2000/react-meliora-app/blob/main/iPhone_3.png" alt="Smart Mirror Preview" width="100%" />
+
 ---
 
 ## 📸 Preview of Smart Mirror in action
